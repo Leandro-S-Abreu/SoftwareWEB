@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Imagens/logo.png" rel="icon" sizes="64x64" type="image/png">
+    <title>Calculador Geométrica: Cone</title>
+    <link rel="stylesheet" href="css/piramide_quadrada_style.css">
+    <script type="text/javascript" language="javascript" src="scripts/piramide_quadrada_script.js"></script>
+</head>
+<body>
+    
+    <div id="topo_site">
+       
+        <img id="logo" src="Imagens/logo.png" alt="logo">
+    
+        <div class="barra_navegação">
+        
+            <a class="texto_barra" href="index.html">Página Inicial</a>
+            <a class="texto_barra" href="exercicios.html">Exercícios</a>
+
+        </div>
+
+        </div id="titulos_gerais">
+
+            <p id="piramide_quadrada_titulo1">Pirâmide de Base</p> <p id="piramide_quadrada_titulo2">Quadrada</p> 
+            <p id="titulo_mensagem">Insira os dados para começar</p>
+
+        <div>  
+
+    </div>
+        
+        <img id="exemplo_piramide_quadrada" src="Imagens/piramide_quadrada_exemplo.png" alt="exemplo_piramide_quadrada">
+
+        <div id="box_calculo_piramide_quadrada">
+
+            <div id="calculo_piramide_quadrada">
+               
+                <label id="l_calculo_volume_area" for="select_area_volume">Selecione o que deseja calcular: </label><select onchange="selecionarAreaVolume();" name="opcoes_calculo" id="calculo_volume_area">
+
+                    <option value="volume" selected >Volume</option> 
+                    <option value="area" >Área Total</option>
+        
+                 </select>
+
+                <br>
+                <br>
+
+                <label id="l_valor_aresta_base" for="valor_aresta_base">Aresta da Base(L):</label> <input size="8" value="valor_aresta_base" placeholder="0,00" id="valor_aresta_base" type="number" required> cm. <br><br>
+                <label id="l_valor_altura" for="valor_altura">Altura(h):</label> <input size="8" value="valor_altura" placeholder="0,00" id="valor_altura" type="number" required> cm. <br><br>
+                <label id="l_valor_apotema" class="valor_apotema" for="valor_apotema">Apótema(m*):</label> <input size="8" value="valor_apotema" placeholder="0,00" id="valor_apotema" class="valor_apotema" type="number" required> <label class="valor_apotema" for="cm">cm.</label> <br><br>
+                <button id="calcular" onclick="calcularVolumeArea();">Calcular</button>
+                
+            </div>
+
+            <div class="hidden" id="box_resultado_calculo_piramide_quadrada">
+                
+                <label id="volume_area_texto" class="volume_area">Volume(V):</label> <label id="volume_area_resultado" class="volume_area">300</label> <label id="cm3" for="cm3"></label>
+
+
+            </div>
+        
+
+        </div>
+
+        <div id="aprenda_calculo">
+
+            <p id="texto_aprenda_calculo">Deseja aprender a realizar o cálculo?</p>
+
+            <a id="link1" target="_blank" href="https://mundoeducacao.uol.com.br/matematica/volume-piramide.htm">Volume</a> <a id="link2" target="_blank" href="https://brasilescola.uol.com.br/matematica/area-piramide.htm">Área Total</a>
+
+
+        </div>
+
+</body>
+</html>

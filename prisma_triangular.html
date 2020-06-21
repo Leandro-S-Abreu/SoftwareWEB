@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Imagens/logo.png" rel="icon" sizes="64x64" type="image/png">
+    <title>Calculador Geométrica: Primas de Base Triangular</title>
+    <link rel="stylesheet" href="css/prisma_triangular_style.css">
+    <script type="text/javascript" language="javascript" src="scripts/prisma_triangular_script.js"></script>
+</head>
+<body>
+    
+    <div id="topo_site">
+       
+        <img id="logo" src="Imagens/logo.png" alt="logo">
+    
+        <div class="barra_navegação">
+        
+            <a class="texto_barra" href="index.html">Página Inicial</a>
+            <a class="texto_barra" href="exercicios.html">Exercícios</a>
+
+        </div>
+
+        </div id="titulos_gerais">
+
+            <p id="prisma_triangular_titulo1">Prisma de Base</p> <p id="prisma_triangular_titulo2">Triangular</p> 
+            <p id="titulo_mensagem">Insira os dados para começar</p>
+
+        <div>  
+
+    </div>
+        
+        <img id="exemplo_prisma_triangular" src="Imagens/prisma_triangular_exemplo.png" alt="exemplo_prisma_triangular">
+
+        <div id="box_calculo_prisma_triangular">
+
+            <div id="calculo_prisma_triangular">
+               
+                <div id="caixas_de_selecao">
+
+                <label id="l_calculo_volume_area" for="select_area_volume">Selecione o que deseja calcular: </label><select name="opcoes_calculo" id="calculo_volume_area">
+
+                    <option value="volume" selected >Volume</option> 
+                    <option value="area" >Área Total</option>
+        
+                 </select>
+                 
+                 <br>
+                 <br>
+                 <label id="excecao_triangulo"> Triângulo é Equilatero? </label><select onchange= "possibilidade_equilatero();" id="possibilidade_equilatero" name="possibilidade_equilatero">
+                    
+                    <option value="sim"  >Sim</option> 
+                    <option value="nao" selected >Não</option>
+
+                </select>
+
+                </div>
+
+                <br>
+
+                <label id="l_valor_aresta_base" for="valor_aresta_base">Aresta da Base(Ab):</label> <input size="8" value="valor_aresta_base" placeholder="0,00" id="valor_aresta_base" type="number"> <label class="cm" for="">cm.</label>  <br><br>
+                <label id="l_valor_altura_prisma" for="valor_altura_prisma">Altura do Prisma(h):</label> <input size="8" value="valor_altura_prisma" placeholder="0,00" id="valor_altura_prisma" type="number"> <label class="cm" for="">cm.</label>  <br><br>
+                <label id="l_valor_altura_triangulo" class="valor_altura_triangulo" for="valor_altura_triangulo">Altura do Triângulo(Ht):</label> <input size="8" value="valor_altura_triangulo" placeholder="0,00" id="valor_altura_triangulo" class="valor_altura_triangulo" type="number" > <label class="valor_altura_triangulo" for="cm">cm.</label> <br><br>
+                <button id="calcular" onclick="calcularVolumeArea();">Calcular</button>
+                
+                <div class="hidden" id="box_resultado_calculo_de_prisma_triangular">
+                
+                    <label id="volume_area_texto" class="volume_area">Volume(V):</label> <label id="volume_area_resultado" class="volume_area">300</label> <label id="cm3" class="volume_area"></label>
+    
+    
+                </div>
+            
+            </div>
+        
+
+        </div>
+
+        <div id="aprenda_calculo">
+
+            <p id="texto_aprenda_calculo">Deseja aprender a realizar o cálculo?</p>
+
+            <a id="link1" target="_blank" href="https://brasilescola.uol.com.br/matematica/volume-prisma.htm">Volume</a> <a id="link2" target="_blank" href=https://mundoeducacao.uol.com.br/matematica/area-prisma.htm>Área Total</a>
+
+
+        </div>
+
+</body>
+</html>

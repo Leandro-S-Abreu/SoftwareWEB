@@ -1,0 +1,260 @@
+body{
+
+  background-image: url("../Imagens/indexbackground.jpg");
+  height: 900px;
+  width: auto;
+  background-size: cover;
+  overflow-y:hidden;
+
+}
+
+#topo_site{
+
+  display: inline-flex;
+  margin-top: 10px;
+
+}
+
+#logo{
+
+  width: auto;
+  height: 45px;
+
+}
+
+.texto_barra{
+
+  margin-top: -05px;
+
+}
+
+.barra_navegação {
+    
+  background-color: #ffffff;
+  overflow: hidden;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 15px;
+  height: 45px;
+
+  }
+  
+.barra_navegação a {
+    
+  float: left;
+  color: #101d31;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: cursive;
+    
+  }
+  
+.barra_navegação a:hover {
+  
+  background-color: rgb(16,29,49);
+  color: white
+
+  }
+
+#exemplo_piramide_quadrada{
+
+  margin-top: -35px;
+
+}
+
+#piramide_quadrada_titulo1{
+
+  margin-left: 80px;
+  margin-top: 10px;
+  font-family: cursive;
+  font-size: 50px;
+  color: white;
+  text-shadow: 6px 6px 6px black
+
+}
+
+#piramide_quadrada_titulo2{
+
+  margin-left: 160px;
+  margin-top: -60px;
+  font-family: cursive;
+  font-size: 50px;
+  color: white;
+  text-shadow: 6px 6px 6px black
+
+}
+
+#titulo_mensagem{
+
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+  margin-top: -145px;
+  margin-left: 800px;
+   text-shadow: 6px 6px 6px black
+
+}
+
+#box_calculo_piramide_quadrada{
+
+  width: 580px;
+  height: 200px;
+  border: 05px solid black;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 800px;
+  margin-top: -540px;
+  border-radius: 25px;
+  background-color: white;
+
+}
+
+#calculo_volume_area{
+
+  height: 25px;
+  width: auto;
+  margin-top: -50px;
+  font-family: cursive;
+  
+}
+
+.calculo_piramide_quadrada{
+
+  display: inline-flex;
+
+}
+
+#box_resultado_calculo_piramide_quadrada{
+
+  margin-top: -30px;
+  margin-left: 280px;
+  font-size: 30px;
+  margin-right: -50px;
+
+}
+
+#l_calculo_volume_area{
+
+  font-family: cursive;
+
+}
+
+#valor_altura{
+
+  font-family: cursive;
+
+}
+
+#l_valor_altura{
+
+  font-family: cursive;
+
+}
+
+#valor_aresta_base{
+
+  font-family: cursive;
+
+}
+
+#l_valor_aresta_base{
+
+  font-family: cursive;
+
+}
+
+
+.valor_apotema{
+
+  display: none;
+  font-family: cursive;
+
+}
+
+#l_valor_apotema{
+
+  font-family: cursive;
+  
+}
+
+.hidden{
+
+  display: none;
+  font-family: cursive;
+
+}
+
+.show{
+
+  display: block;
+  font-family: cursive;
+
+}
+
+
+#calcular{
+
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #16193a;
+  color: white;
+}
+
+#calcular:hover{
+
+  transform: scale(1.15);
+
+}
+
+.volume_area{
+
+  margin-top: -30px;
+  font-size: 30px;
+}
+
+#cm3{
+
+  margin-top: -30px;
+
+}
+
+#aprenda_calculo{
+
+  width: 580px;
+  height: 60px;
+  border: 05px solid black;
+  padding: 50px;
+  margin: 200px;
+  margin-left: 810px;
+  margin-top: 30px;
+  border-radius: 25px;
+  background-color: white;
+  font-family: cursive;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+#texto_aprenda_calculo{
+
+  margin-top: -40px;
+  font-size: 30px;
+
+}
+
+#link1{
+
+  margin-left: 30px;
+  font-size: 35px;
+
+}
+
+#link2{
+
+  margin-left: 50px;
+  font-size: 35px;
+
+}
+  

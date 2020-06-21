@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Imagens/logo.png" rel="icon" sizes="64x64" type="image/png">
+    <title>Calculador Geométrica: Esfera</title>
+    <link rel="stylesheet" href="css/esfera_style.css">
+    <script type="text/javascript" language="javascript" src="scripts/esfera_script.js"></script>
+</head>
+<body>
+    
+    <div id="topo_site">
+       
+        <img id="logo" src="Imagens/logo.png" alt="logo">
+    
+        <div class="barra_navegação">
+        
+            <a class="texto_barra" href="index.html">Página Inicial</a>
+            <a class="texto_barra" href="exercicios.html">Exercícios</a>
+
+        </div>
+
+        </div id="titulos_gerais">
+
+            <p id="esfera_titulo">Esfera</p>    
+            <p id="titulo_mensagem">Insira os dados para começar</p>
+
+        <div>  
+
+    </div>
+        
+        <img id="exemplo_esfera" src="Imagens/esfera_exemplo.png" alt="exemplo_esfera">
+
+    <div id="box_calculo_esfera">
+
+        <div id="calculo_esfera">
+               
+            <label id="l_calculo_volume_area" for="select_area_volume">Selecione o que deseja calcular: </label><select onchange="selecionarAreaVolume();" form="dados" name="opcoes_calculo" id="calculo_volume_area">
+
+                <option value="volume" selected >Volume</option> 
+                 <option value="area" >Área Total</option>
+        
+                </select>
+
+            <br>
+            <br>
+
+            <label id="l_valor_raio" for="valor_raio">Raio(r):</label> <input size="8" value="valor_raio" placeholder="0,00" id="valor_raio" type="number" required> cm. <br><br>
+            <button id="calcular" onclick="calcularVolumeArea();">Calcular</button>
+           
+            <div class="hidden" id="box_resultado_calculo_esfera">
+                
+                <label id="volume_area_texto" class="volume_area">Volume(V):</label> <label id="volume_area_resultado" class="volume_area">300</label> <label class="volume_area"id="cm3" for="cm3"></label>
+    
+    
+            </div>
+            
+                
+        </div>
+
+    </div>
+    
+    <div id="aprenda_calculo">
+
+        <p id="texto_aprenda_calculo">Deseja aprender a realizar o cálculo?</p>
+
+        <a id="link1" target="_blank" href="https://mundoeducacao.uol.com.br/matematica/volume-esfera.htm">Volume</a> <a id="link2" target="_blank" href="https://mundoeducacao.uol.com.br/matematica/area-esfera.htm">Área Total</a>
+        
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+body{
+
+    background-image: url("../Imagens/indexbackground.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 1500px;
+    background-size: cover;
+    overflow-y:hidden;
+}
+#mother{
+
+    margin: auto;
+
+}
+
+#borda_site{
+
+    border-radius: 25px 25px 25px 25px;
+    border: 5px solid black;
+    width: 1500px;
+    height: 720px;
+    margin-top: 30px;
+    margin-left: 35px;
+   
+}
+
+#fundo_borda_site{
+
+    background-image: url("imagens/Fundo_Central_Box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 722px;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: -2px;
+
+}
+
+#topo_site{
+
+    display: inline-flex;
+    margin-top: 10px;
+  
+  }
+
+#logo{
+
+    width: auto;
+    height: 85px;
+    margin-left: 25px;
+}
+
+#titulo_exercicios{
+
+    text-decoration: underline;
+    margin-left: 35px;
+    margin-top: -20px;
+    font-family: cursive;
+    font-size: 80px;
+    color: #ffffff;
+
+}
+
+#selecione_exercicios{
+
+    text-align: center;
+    font-family: cursive;
+    color: #ffffff;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#fileira01{
+
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+
+#fileira02{
+
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+#opcao_esfera{
+
+    height: 135px;
+
+}
+
+#opcao_cilindro{
+
+    height: 135px;
+    
+}
+
+#opcao_cubo{
+
+    height: 135px;
+    width: 420px;
+
+}
+
+#opcao_piramide_base_quadrada{
+
+    height: 135px;
+    width: 420px;
+
+}
+
+#opcao_prisma_base_triangular{
+
+    height: 135px;
+    width: 420px;
+    margin-left: -3px;
+}

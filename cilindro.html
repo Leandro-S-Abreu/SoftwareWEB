@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Imagens/logo.png" rel="icon" sizes="64x64" type="image/png">
+    <title>Calculador Geométrica: Cilindro</title>
+    <link rel="stylesheet" href="css/cilindro_style.css">
+    <script type="text/javascript" language="javascript" src="scripts/cilindro_script.js"></script>
+</head>
+<body>
+    
+    <div id="topo_site">
+       
+        <img id="logo" src="Imagens/logo.png" alt="logo">
+    
+        <div class="barra_navegação">
+        
+            <a class="texto_barra" href="index.html">Página Inicial</a>
+            <a class="texto_barra" href="exercicios.html">Exercícios</a>
+
+        </div>
+
+        </div id="titulos_gerais">
+
+            <p id="cilindro_titulo">Cilindro</p>    
+            <p id="titulo_mensagem">Insira os dados para começar</p>
+
+        <div>  
+
+    </div>
+        
+        <img id="exemplo_cilindro" src="Imagens/cilindro_exemplo.png" alt="exemplo_cilindro">
+
+        <div id="box_calculo_cilindro">
+
+            <div id="calculo_cilindro">
+               
+                <label id="l_calculo_volume_area" for="select_area_volume">Selecione o que deseja calcular: </label><select form="dados" name="opcoes_calculo" id="calculo_volume_area">
+
+                    <option value="volume" selected >Volume</option> 
+                    <option value="area" >Área Total</option>
+        
+                 </select>
+
+                <br>
+                <br>
+
+                <label id="l_valor_raio" for="valor_raio">Raio(r):</label> <input size="8" value="valor_raio" placeholder="0,00" id="valor_raio" type="number" required> cm. <br><br>
+                <label id="l_valor_altura" for="valor_altura">Altura(h):</label> <input size="8" value="valor_altura" placeholder="0,00" id="valor_altura" type="number" required> cm. <br><br>
+                <button id="calcular" onclick="calcularVolumeArea();">Calcular</button>
+                
+            </div>
+
+            <div class="hidden" id="box_resultado_calculo_cilindro">
+                
+                <label id="volume_area_texto" class="volume_area">Volume(V):</label> <label id="volume_area_resultado" class="volume_area">300</label> <label id="cm3" for="cm3"></label>
+
+
+            </div>
+
+        </div>
+
+        <div id="aprenda_calculo">
+
+            <p id="texto_aprenda_calculo">Deseja aprender a realizar o cálculo?</p>
+
+            <a id="link1" target="_blank" href="https://brasilescola.uol.com.br/matematica/volume-cone.htm">Volume</a> <a id="link2" target="_blank" href="https://www.educamaisbrasil.com.br/enem/matematica/area-do-cilindro">Área Total</a>
+
+
+        </div>
+
+</body>
+</html>
